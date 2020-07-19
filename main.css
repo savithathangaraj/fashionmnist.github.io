@@ -1,0 +1,23 @@
+#canvas{
+  border: 2px solid black;
+  position: relative;
+}
+#canvasimg {
+  position: absolute;
+  top: 10%;
+  left: 52%;
+  width: 280;
+  height: 280;
+  display: none;
+}
+div{
+	background-color:crimson;
+	width:40%;
+	height:500px;
+}
+.but{
+	background-color:seashell;
+	width:85px;
+	height:30px;
+
+}
