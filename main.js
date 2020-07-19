@@ -6,7 +6,7 @@ let mousePressed = false;
 let lastX, lastY;
 
 const main = async () => {
-  model = await tf.loadLayersModel("model.json");
+  model = await tf.loadLayersModel("https://github.com/savithathangaraj/fashionmnist.github.io/blob/master/model.json");
   console.log(model.summary());
 
   init();
